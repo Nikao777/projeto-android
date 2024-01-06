@@ -20,3 +20,24 @@
     --fonte-destaque: 'Bebas Neue', sans-serif;
     --fonte-android: 'Android', cursive;
 }
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+footer{
+    background-color: black;
+    padding: 3px;
+}
+footer > p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+footer > p > a{
+    text-decoration: none;
+    color: var(--cor4);
+}
+footer > p > a:hover{
+    color: var(--cor2);
+    text-decoration: underline;
+}
