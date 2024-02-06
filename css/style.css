@@ -124,16 +124,18 @@ main picture > img.pequeno{
 main div{
     background-color: var(--cor3);
     position: relative;
-    padding: 225px;
+    padding: 224px;
     border-radius: 20px;
     margin-bottom: 20px;
 }
 main div.video > iframe{
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 90%;
     height: 90%;
+    border-radius: 20px;
 }
 main aside{
     background-color: var(--cor4);
